@@ -11,6 +11,7 @@ import { TaskItemComponent } from './components/task-item/task-item.component';
 
 @NgModule({
   declarations: [
+    // Components
     AppComponent,
     HeaderComponent,
     ButtonComponent,
@@ -18,11 +19,14 @@ import { TaskItemComponent } from './components/task-item/task-item.component';
     TaskItemComponent
   ],
   imports: [
+    // Modules
     BrowserModule,
     FontAwesomeModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [
+    // Services
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
